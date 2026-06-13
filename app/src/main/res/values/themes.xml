@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Outpost" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/outpost_medium</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/outpost_light</item>
+
+        <!-- Backgrounds -->
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:statusBarColor">?android:attr/windowBackground</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+
+        <!-- Custom colors for programmatic access -->
+        <item name="colorOnSurface">#000000</item>
+        <item name="colorOnSurfaceVariant">#888888</item>
+        <item name="colorOutlineVariant">#F0F0F0</item>
+    </style>
+
+    <style name="Theme.Outpost.NoActionBar" parent="Theme.Outpost" />
+</resources>

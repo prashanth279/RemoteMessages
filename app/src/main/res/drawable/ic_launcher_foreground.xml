@@ -1,0 +1,62 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Background shattered effect / circle structure -->
+    <!-- Left Top - Medium Blue -->
+    <path
+        android:fillColor="@color/outpost_medium"
+        android:pathData="M54,24 A30,30 0 0,0 24,54 L54,54 Z" />
+
+    <!-- Left Bottom - Dark Blue with tail -->
+    <path
+        android:fillColor="@color/outpost_dark"
+        android:pathData="M24,54 A30,30 0 0,0 54,84 L54,54 L20,88 L24,54 Z" />
+
+    <!-- Right Side Shattered Effect (Approximation) -->
+    <path
+        android:fillColor="@color/outpost_medium"
+        android:pathData="M54,24 L84,54 L54,54 Z" />
+    <path
+        android:fillColor="@color/outpost_light"
+        android:pathData="M84,54 L54,84 L54,54 Z" />
+    <path
+        android:fillColor="#0072BC"
+        android:pathData="M84,54 L75,75 L54,84 Z" />
+    <path
+        android:fillColor="@color/outpost_light"
+        android:pathData="M54,24 L70,30 L84,54 Z" />
+
+    <!-- Paper Plane - Top Right -->
+    <path
+        android:fillColor="@color/outpost_medium"
+        android:pathData="M75,15 L95,25 L85,45 Z" />
+    <path
+        android:fillColor="@color/outpost_light"
+        android:pathData="M75,15 L85,45 L80,35 Z" />
+    <path
+        android:fillColor="#80D8FF"
+        android:pathData="M95,25 L85,45 L90,35 Z" />
+
+    <!-- Center Message Bubble -->
+    <path
+        android:fillColor="@color/white"
+        android:pathData="M54,34 A20,20 0 1,1 54,74 A20,20 0 1,1 54,34 Z" />
+    <path
+        android:fillColor="@color/white"
+        android:pathData="M38,68 L44,64 L48,70 Z" />
+
+    <!-- Three Dots -->
+    <path
+        android:fillColor="@color/outpost_medium"
+        android:pathData="M44,54 A2.5,2.5 0 1,1 44,53.9 A2.5,2.5 0 0,1 44,54 Z" />
+    <path
+        android:fillColor="@color/outpost_medium"
+        android:pathData="M54,54 A2.5,2.5 0 1,1 54,53.9 A2.5,2.5 0 0,1 54,54 Z" />
+    <path
+        android:fillColor="@color/outpost_medium"
+        android:pathData="M64,54 A2.5,2.5 0 1,1 64,53.9 A2.5,2.5 0 0,1 64,54 Z" />
+
+</vector>

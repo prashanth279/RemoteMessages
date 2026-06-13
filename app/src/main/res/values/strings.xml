@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Outpost</string>
+    <string name="secure_sms_bridge">Secure SMS Bridge</string>
+    <string name="permissions_title">System Access</string>
+    <string name="settings_title">Configuration</string>
+    <string name="send_test">Send To Telegram</string>
+    <string name="placeholder_message">Test message…</string>
+
+    <string name="label_bot_token">Telegram Bot Token</string>
+    <string name="label_chat_id">Telegram Chat ID</string>
+    <string name="btn_save">Save Configuration</string>
+    <string name="btn_default">Load Defaults</string>
+
+    <string name="status_allowed">Active</string>
+    <string name="status_not_allowed">Required</string>
+
+    <string name="perm_sms">SMS Access</string>
+    <string name="perm_notifications">Notifications</string>
+    <string name="perm_boot">Start on Boot</string>
+    <string name="perm_battery">Unrestricted Battery</string>
+    <string name="perm_hibernation">Hibernation Disabled</string>
+
+    <string name="btn_grant_all">Enable Permissions</string>
+    <string name="btn_battery_settings">Battery Settings</string>
+    <string name="btn_app_settings">App Settings</string>
+    <string name="btn_disable_hibernation">Disable Hibernation</string>
+
+    <string name="hibernation_note">On Android 11+, ensure \"Remove permissions if app is unused\" is turned OFF in App Settings to prevent service interruption.</string>
+    <string name="permission_status_title">Permissions Status</string>
+    <string name="unrestricted_battery_label">Unrestricted Battery</string>
+    <string name="hibernation_label">App Hibernation</string>
+    <string name="autostart_note">Note: On some devices (Xiaomi, Oppo, Vivo, etc.), you must manually enable \'Auto-start\' in App Info settings for background services to work after boot.</string>
+</resources>
